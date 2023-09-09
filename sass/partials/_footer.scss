@@ -1,0 +1,32 @@
+.piedepagina{
+    display: flex;
+    flex-direction: row;
+    height: 100px;  
+    background-color:$primary;
+    align-items: center;
+    justify-content: center;
+    &__iconos{
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        &-text{
+            color: $text-color;
+            font-size: $text-small;
+        }
+      
+    }
+    &__iconos2-redes{
+        display: flex;
+        flex-direction: row;
+
+    }
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: $text-medium;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }

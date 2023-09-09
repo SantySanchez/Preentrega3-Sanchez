@@ -1,0 +1,30 @@
+.cuerpo-contacto{
+    max-width: 1200px;
+    margin: 0 auto ;
+    margin-top: $spacing-small;
+    padding-bottom: $spacing-large;
+    &__titulo{
+        color:$primary;
+        text-align: center;
+        font-family: $font-title;
+        font-size: $text-large;
+      }
+      &__formulario
+      {
+        background-color: $secondary;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding-bottom: $spacing-medium;
+      }
+
+}
+.redes
+{
+&__titulo{
+color:$primary;
+text-align: center;
+font-family: $font-title;
+font-size: $text-large;
+}
+}

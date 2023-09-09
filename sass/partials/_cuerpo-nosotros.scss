@@ -1,0 +1,35 @@
+.nosotros-cuerpo{
+    max-width: 1200px;
+    margin: 0 auto ;
+    margin-top: $spacing-small;
+}
+.nosotros__title{
+    color:$primary;
+    text-align: center;
+    font-family: $font-title;
+    font-size: $text-large;
+}
+.nosotros-ubicacion{
+    display: flex;
+    flex-direction: row;
+    padding: $spacing-large;   
+    align-items: center; 
+    &__box{
+        flex: 1 1 50%;
+        display: flex;
+        flex-direction: column;
+        padding: $spacing-large;
+
+        &-title{
+            color:$primary;
+            text-align: center;
+            font-family: $font-principal;
+            font-size: $text-large;
+        }
+        &-text{
+            color: $text-color;
+            font-size: $text-medium;
+        }
+    }
+    
+}

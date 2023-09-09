@@ -1,0 +1,114 @@
+.cuerpo-planes{
+    max-width: 1200px;
+    margin: 0 auto ;
+    margin-top: $spacing-small;
+    &__titulo{
+        color:$primary;
+        text-align: center;
+        font-family: $font-title;
+        font-size: $text-large;
+    }
+}
+.planes{
+    display: flex;
+    gap: $spacing-small;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: $spacing-large;
+   
+    &__carta{
+
+        background-color: darkgray;
+    
+        width: 320px;
+        height: 500px;
+        border-color: rgb(168, 165, 165);
+        border-style: solid;
+        border-width: 3px;
+        margin: 5px;
+        transition: 1s;
+
+        &:hover{
+            color: white;
+            width: 350px;
+            padding: 10px;
+            background-color: black ;
+        }
+        &-imagen{
+            width: 100%;
+        
+        
+        } 
+        &-description{
+            display: flex;
+            flex-direction: column;
+            padding: $spacing-medium;
+            &__text{
+                margin-top: $spacing-xsmall;
+                font-size: $text-base;
+                color: $text-color;
+        }
+        &__action{
+        
+            background-color: $primary;
+            display: inline-block;
+            width: 40%;
+            padding: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            border-radius: 10px;
+        }
+        &__titulo{
+            font-family: $font-title;
+            font-size: $text-medium;
+            color: $primary;
+        }
+        &__precio{
+            margin-top: 0.6 rem;
+            color: $text-color;
+            font-size: $text-base;
+        }
+
+
+    }
+    }
+   
+    
+}
+
+.mercadopago{
+    &__titulo{
+        font-size: $text-large;
+        font-family: $font-title;
+        color: $primary; 
+        text-align: center;
+    }
+    &__pagos{
+        display: flex;
+        padding: $spacing-large;   
+        align-items: center; 
+        &-texto{
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 50%;
+            padding: $spacing-large;
+            font-size: $spacing-medium;
+            font-weight: 300;
+            color: $text-color;
+            &__link{
+                display: flex;
+                align-items: center;
+                font-size: $spacing-small;
+                color: $primary;
+                gap: $spacing-xsmall;
+                margin-top: 2rem;
+            }
+        }   
+        &-imagen{
+            display: flex;
+            flex: 1 1 45%;
+        }     
+    }
+}

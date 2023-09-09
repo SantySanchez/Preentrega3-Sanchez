@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Roboto+Slab:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: $font-principal;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: $font-title;
+    color:$text-color;
+}
+
+img{
+    width: 100%;
+}
